@@ -1,0 +1,76 @@
+
+<style>
+    .container{
+        margin: 5px;
+        display: grid;
+        grid-template-rows: 3fr 8fr 3fr;
+        background-color: rgb(14, 14, 15);
+    }
+    .header{
+        background-color: rgb(37, 173, 123);
+        display: grid;
+        text-align: center;
+        align-items: center;
+        color: white;
+        margin: 10px;
+    }
+    .middle{
+        display: grid;
+        grid-template-columns: 5fr 8fr;
+        height: 300px;
+        margin: 10px;
+    }
+    .aside{
+        background-color: rgb(93, 243, 93);
+        display: grid;
+        text-align: center;
+        align-items: center;
+        color: white;
+        margin: 10px;
+    }
+    .article{
+        display: grid;
+grid-template-rows: 5fr 2fr;
+        background-color: orangered;
+        text-align: center;
+        align-items: center;
+        color: white;
+        margin: 10px;
+    }
+    .img{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .image{
+        background-color: orange;
+        margin: 5px;
+        text-align: center;
+        align-items: center;
+        color: white;
+        height: 60px;
+        display: grid;
+    }
+    .footer{
+        background-color: rgb(37, 173, 123);
+        display: grid;
+        text-align: center;
+        align-items: center;
+        color: white;
+        margin: 10px;
+    }
+
+</style>
+<div class="container">
+    <div class="header">Header</div>
+    <div class="middle">
+        <div class="aside">Aside</div>
+        <div class="article">Article
+            <div class="img"><div class="image">Image</div>
+            <div class="image">image</div>
+            <div class="image">Image</div></div>
+            
+        </div>
+    </div>
+    <div class="footer">Footer</div>
+
+</div>
